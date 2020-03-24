@@ -4,17 +4,17 @@ const msgerChat = get(".msger-chat");
 
 const BOT_MSGS = [
   "Hi, how are you?",
-  "Ohh... I can't understand what you trying to say. Sorry!",
+  "On My Way",
   "I like to play games... But I don't know how to play!",
   "Sorry if my answers are not relevant. :))",
   "I feel sleepy! :("
 ];
 
 // Icons made by Freepik from www.flaticon.com
-const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
-const BOT_NAME = "BOT";
-const PERSON_NAME = "Sajad";
+const BOT_IMG = "image/mom.JPG";
+const PERSON_IMG = "image/mom.JPG";
+const BOT_NAME = "Mom";
+const PERSON_NAME = "Hailey";
 
 msgerForm.addEventListener("submit", event => {
   event.preventDefault();
