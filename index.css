@@ -3,7 +3,7 @@
 	 box-sizing: border-box;
 }
  body {
-	 background: #c5ddeb;
+	 background: #D69D90;
 	 font: 14px/20px "Lato", Arial, sans-serif;
 	 padding: 40px 0;
 	 color: white;
@@ -137,10 +137,10 @@
 	 background: #94c2ed;
 }
  .chat .chat-history .other-message {
-	 background: #8e8df7;
+	 background: #EDAEAB;
 }
  .chat .chat-history .other-message:after {
-	 border-bottom-color: #8e8df7;
+	 border-bottom-color: #EDAEAB;
 	 left: 93%;
 }
  .chat .chat-message {
@@ -162,7 +162,7 @@
 }
  .chat .chat-message button {
 	 float: right;
-	 color: #8e8df7;
+	 color: #EDAEAB;
 	 font-size: 16px;
 	 text-transform: uppercase;
 	 border: none;
@@ -171,7 +171,7 @@
 	 background: #f2f5f8;
 }
  .chat .chat-message button:hover {
-	 color: #6d6cf5;
+	 color: #EDAEAB;
 }
  .online, .offline, .me {
 	 margin-right: 3px;
@@ -184,7 +184,7 @@
 	 color: #edaeab;
 }
  .me {
-	 color: #8e8df7;
+	 color: #EDAEAB;
 }
  .align-left {
 	 text-align: left;
