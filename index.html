@@ -9,7 +9,7 @@
     <script src="https://use.fontawesome.com/6af91304eb.js"></script>
 </head>
 <body>
-    <div class="msger-chat container clearfix">
+    <div class="container clearfix">
         <div class="people-list" id="people-list">
           <div class="search">
             <input type="text" placeholder="search" />
@@ -18,7 +18,7 @@
           <ul class="list">
             <h2>Family</h2>
             <li class="clearfix list">
-              <img src="image/mom.jpg" alt="Mom" />
+              <img src="image/mom.JPG" alt="Mom" />
               <div class="about">
                 <div class="name">Kwon Soon Ae</div>
                 <div class="status">
@@ -59,7 +59,7 @@
         
         <div class="chat">
           <div class="chat-header clearfix">
-            <img src="/image/mom.JPG" alt="mom" />
+            <img src="image/mom.JPG" alt="mom" />
             
             <div class="chat-about">
               <i class="fas fa-comment-alt"></i> <div class="chat-with">Chat with Mom</div>
@@ -67,39 +67,46 @@
             <i class="fa fa-star"></i>
           </div> <!-- end chat-header -->
           
-          <div class="chat-history">
-            <ul>
-              <li class="clearfix">
-                <div class="message-data align-right">
-                  <span class="message-data-time" >10:10 AM, Today</span>
-                  <span class="message-data-name" >Hailey</span> <i class="fa fa-circle me"></i>
-                  
-                </div>
-                <div class="message other-message float-right">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam praesentium corrupti nostrum sequi quo autem dolores hic numquam eaque quis fugit facere repudiandae, aliquam excepturi velit. Quaerat, eos pariatur?
-                </div>
-              </li>
-              
-              <li>
-                <div class="message-data">
-                  <span class="message-data-name"><i class="fa fa-circle online"></i> Mom</span>
-                  <span class="message-data-time">10:12 AM, Today</span>
-                </div>
-                <div class="message my-message">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veritatis labore expedita necessitatibus ipsa neque consectetur dignissimos earum sed, nulla quia eaque vel perferendis asperiores ullam debitis harum laborum itaque?
-                </div>
-              </li>
-            </ul>
-            
-          </div> <!-- end chat-history -->
-          
+          <div class="msger-chat chat-history">
+          <div class="msg left-msg">
+            <div
+             class="msg-img"
+             style="background-image: url(image/mom.JPG)"
+            ></div>
+      
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="message-data-name"> <i class="fa fa-circle online"> </i>Mom</div>
+                <div class="message-data-time">12:45</div>
+              </div>
+      
+              <div class="msg-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, porro. Aspernatur facilis cum inventore fugit repellendus. Amet beatae, itaque, voluptates nostrum laborum iure soluta excepturi, quod sequi maiores qui odio!
+              </div>
+            </div>
+          </div>
+
+          <div class="msg right-msg">
+            <div
+            class="msg-img"
+            style="background-image: url(image/hailey.JPG)"
+            ></div>
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="message-data-name">Hailey</div> <i class="fa fa-circle me"></i>
+                <div class="message-data-time">12:46</div>
+              </div>
+      
+              <div class="msg-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sunt totam rem vel tenetur deserunt doloribus enim illo explicabo dolores quis! Eligendi, dolor accusamus! Sequi tempore eum officiis totam voluptatibus.
+              </div>
+            </div>
+          </div>
+          </div> <!-- end chat-message -->
           <form class="msger-inputarea chat-message clearfix">
-            <input type="text" class="msger-input" placeholder="Enter your message...">
+            <input type="text" class="msger-input" placeholder="Type Message">
             <button type="submit" class="msger-send-btn">Send</button>
           </form>
-    
-          </div> <!-- end chat-message -->
-          
         </div> <!-- end chat -->
         
       </div> <!-- end container -->
