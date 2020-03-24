@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chat app</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://use.fontawesome.com/6af91304eb.js"></script>
+</head>
+<body>
+    <div class="msger-chat container clearfix">
+        <div class="people-list" id="people-list">
+          <div class="search">
+            <input type="text" placeholder="search" />
+            <i class="fa fa-search"></i>
+          </div>
+          <ul class="list">
+            <h2>Family</h2>
+            <li class="clearfix list">
+              <img src="image/mom.jpg" alt="Mom" />
+              <div class="about">
+                <div class="name">Kwon Soon Ae</div>
+                <div class="status">
+                  <i class="fa fa-circle online"></i> online
+                </div>
+              </div>
+            </li>
+            
+            <li class="clearfix list">
+              <img src="image/eun.JPG" alt="Ha Eun" />
+              <div class="about">
+                <div class="name">Koo Haeun</div>
+                <div class="status">
+                  <i class="fa fa-circle offline"></i> left 7 mins ago
+                </div>
+              </div>
+            </li>
+            
+            <li class="clearfix list">
+              <img src="image/min.JPG" alt="Mini" />
+              <div class="about">
+                <div class="name">Koo Hamin</div>
+                <div class="status">
+                  <i class="fa fa-circle online"></i> online
+                </div>
+              </div>
+            </li>
+
+            <li class="clearfix list">
+                <img src="image/dad.jpg" alt="Dad" />
+                <div class="about">
+                  <div class="name">Koo Hone Seo</div>
+                  <div class="status">
+                    <i class="fa fa-circle offline"></i> left 30 mins ago
+                  </div>
+                </div>
+              </li>
+        
+        <div class="chat">
+          <div class="chat-header clearfix">
+            <img src="/image/mom.JPG" alt="mom" />
+            
+            <div class="chat-about">
+              <i class="fas fa-comment-alt"></i> <div class="chat-with">Chat with Mom</div>
+            </div>
+            <i class="fa fa-star"></i>
+          </div> <!-- end chat-header -->
+          
+          <div class="chat-history">
+            <ul>
+              <li class="clearfix">
+                <div class="message-data align-right">
+                  <span class="message-data-time" >10:10 AM, Today</span>
+                  <span class="message-data-name" >Hailey</span> <i class="fa fa-circle me"></i>
+                  
+                </div>
+                <div class="message other-message float-right">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam praesentium corrupti nostrum sequi quo autem dolores hic numquam eaque quis fugit facere repudiandae, aliquam excepturi velit. Quaerat, eos pariatur?
+                </div>
+              </li>
+              
+              <li>
+                <div class="message-data">
+                  <span class="message-data-name"><i class="fa fa-circle online"></i> Mom</span>
+                  <span class="message-data-time">10:12 AM, Today</span>
+                </div>
+                <div class="message my-message">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veritatis labore expedita necessitatibus ipsa neque consectetur dignissimos earum sed, nulla quia eaque vel perferendis asperiores ullam debitis harum laborum itaque?
+                </div>
+              </li>
+            </ul>
+            
+          </div> <!-- end chat-history -->
+          
+          <form class="msger-inputarea chat-message clearfix">
+            <input type="text" class="msger-input" placeholder="Enter your message...">
+            <button type="submit" class="msger-send-btn">Send</button>
+          </form>
+    
+          </div> <!-- end chat-message -->
+          
+        </div> <!-- end chat -->
+        
+      </div> <!-- end container -->
+    
+    
+</body>
+<script src="index.js"></script>
+</html>
