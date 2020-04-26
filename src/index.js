@@ -1,22 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
 import People from 'components/People';
 import Chat from 'components/Chat';
+
 import 'css/index.css';
 
 const App = () => {
 	return (
-		<>
-		<div class="people-list" id="people-list">
-			<div class="container clearfix">
-				<People name="People" />
-			</div>
-
-			<div class="chat">
-				<Chat />
-			</div>
-		</div>
-		</>
+		<Router>
+			<Route exact path="/chat" component={Chat} />
+			{/* <Route exact path="/chat" component={Chat} /> */}
+		</Router>
 	)
 }
 
