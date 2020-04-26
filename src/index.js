@@ -1,22 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import People from 'components/People';
-import Chat from 'components/Chat';
-import 'css/index.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
+import Chat from 'components/Chat'
+import Lessons from 'components/Lessons'
+
+import 'css/reset.css';
+import 'css/index.module.css';
 
 const App = () => {
 	return (
-		<>
-		<div class="people-list" id="people-list">
-			<div class="container clearfix">
-				<People name="People" />
-			</div>
-
-			<div class="chat">
-				<Chat />
-			</div>
-		</div>
-		</>
+		<Router>
+			<Route exact path="/" component={Chat} />
+			<Route exact path="/lessons" component={Lessons} />
+			<Route path="/lessons/:week" component={Lessons} />
+		</Router>
 	)
 }
 
