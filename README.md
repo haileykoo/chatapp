@@ -1,6 +1,6 @@
-# Family Chat app
+# Quick React Demo
 
-This React app allows users to communicate with families. 
+A quick React demo and test. To run from the command line (in this root folder):
 
 ## 1. Install the Node Modules
 
