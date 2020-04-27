@@ -24,7 +24,9 @@ class MessageTextBoxContainer extends Component{
 class Avartar extends Component {
   render(){
     return(
-      <div className="avatar"/>
+      <div className="avatar">
+        ME
+        </div>
     );
   }
 }
@@ -143,6 +145,21 @@ class ChatApp extends Component {
   render() {
     return (
       <div className="chat_window">
+        
+        <div className="chat-about">
+          <div className="chat-with">Chat with Jagiya</div>
+          <div className="chat-num-messages">already 1000 messages</div>
+        </div>
+
+        <div>
+              <div className="message-data align-right">
+                <span className="message-data-time">10:10 AM, Today</span> &nbsp; &nbsp;
+              </div>
+              <div className="message other-message">
+                Hi Hailey, how are you? How is the assignmwnt coming along?
+              </div>
+        </div>
+
         <MessagesContainer messages={this.state.messages}></MessagesContainer>
         <div className="bottom_wrapper clearfix">
           <MessageTextBoxContainer 

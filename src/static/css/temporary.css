@@ -1,5 +1,5 @@
 .chat_window{
-	height: calc(100vh - 120px);
+	height: calc(100vh - 50px);
 }
 .messages{
 	height: calc(100vh - 250px);
@@ -13,3 +13,4 @@
 #msg_input{
     color: black;
 }
+
