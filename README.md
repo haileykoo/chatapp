@@ -4,8 +4,8 @@ React Chat app
 URL: https://haileychatappreact.herokuapp.com
 
 
-=======================================================
-To run from the command line (in this root folder):
+
+# To run from the command line (in this root folder):
 
 ## 1. Install the Node Modules
 
